@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: argparse 1.1\n"
+"Report-Msgid-Bugs-To: https://github.com/DuckDuckStudio/python-argparse-"
+"translations/issues\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /lib/python3.14/argparse.py:246
+#, python-format
+msgid "%(heading)s:"
+msgstr "%(heading)s："
+
+#: /lib/python3.14/argparse.py:325
+msgid "usage: "
+msgstr "用法："
+
+#: /lib/python3.14/argparse.py:753
+#, python-format
+msgid " (default: %(default)s)"
+msgstr "（默认：%(default)s）"
+
+#: /lib/python3.14/argparse.py:815
+#, python-format
+msgid "argument %(argument_name)s: %(message)s"
+msgstr "参数 %(argument_name)s：%(message)s"
+
+#: /lib/python3.14/argparse.py:1190
+msgid "show program's version number and exit"
+msgstr "显示程序的版本号并退出"
+
+#: /lib/python3.14/argparse.py:1304
+#, python-format
+msgid "unknown parser %(parser_name)r (choices: %(choices)s)"
+msgstr "未知解析器 %(parser_name)r（选项：%(choices)s）"
+
+#: /lib/python3.14/argparse.py:1308
+#, python-format
+msgid "command '%(parser_name)s' is deprecated"
+msgstr "命令“%(parser_name)s”已弃用"
+
+#: /lib/python3.14/argparse.py:1375
+#, python-format
+msgid "argument \"-\" with mode %r"
+msgstr "模式为 %r 的参数“-”"
+
+#: /lib/python3.14/argparse.py:1384
+#, python-format
+msgid "can't open '%(filename)s': %(error)s"
+msgstr "无法打开“%(filename)s”：%(error)s"
+
+#: /lib/python3.14/argparse.py:1722
+#, python-format
+msgid "conflicting option string: %s"
+msgid_plural "conflicting option strings: %s"
+msgstr[0] "选项字符串冲突：%s"
+
+#: /lib/python3.14/argparse.py:1908
+msgid "positional arguments"
+msgstr "位置参数"
+
+#: /lib/python3.14/argparse.py:1909
+msgid "options"
+msgstr "选项"
+
+#: /lib/python3.14/argparse.py:1922
+msgid "show this help message and exit"
+msgstr "显示此帮助消息并退出"
+
+#: /lib/python3.14/argparse.py:1959
+msgid "subcommands"
+msgstr "子命令"
+
+#: /lib/python3.14/argparse.py:2010 /lib/python3.14/argparse.py:2573
+#, python-format
+msgid "unrecognized arguments: %s"
+msgstr "无法识别的参数：%s"
+
+#: /lib/python3.14/argparse.py:2116
+#, python-format
+msgid "not allowed with argument %s"
+msgstr "不允许与参数 %s 同时使用"
+
+#: /lib/python3.14/argparse.py:2135
+#, python-format
+msgid "ambiguous option: %(option)s could match %(matches)s"
+msgstr "选项不明确：%(option)s 可能匹配 %(matches)s"
+
+#: /lib/python3.14/argparse.py:2167 /lib/python3.14/argparse.py:2199
+#, python-format
+msgid "ignored explicit argument %r"
+msgstr "忽略显式参数 %r"
+
+#: /lib/python3.14/argparse.py:2219
+#, python-format
+msgid "option '%(option)s' is deprecated"
+msgstr "选项“%(option)s”已弃用"
+
+#: /lib/python3.14/argparse.py:2251
+#, python-format
+msgid "argument '%(argument_name)s' is deprecated"
+msgstr "参数“%(argument_name)s”已弃用"
+
+#: /lib/python3.14/argparse.py:2344
+#, python-format
+msgid "the following arguments are required: %s"
+msgstr "以下参数是必需的：%s"
+
+#: /lib/python3.14/argparse.py:2359
+#, python-format
+msgid "one of the arguments %s is required"
+msgstr "必须指定参数 %s 中的一个"
+
+#: /lib/python3.14/argparse.py:2403
+msgid "expected one argument"
+msgstr "应为一个参数"
+
+#: /lib/python3.14/argparse.py:2404
+msgid "expected at most one argument"
+msgstr "应至多有一个参数"
+
+#: /lib/python3.14/argparse.py:2405
+msgid "expected at least one argument"
+msgstr "应至少有一个参数"
+
+#: /lib/python3.14/argparse.py:2409
+#, python-format
+msgid "expected %s argument"
+msgid_plural "expected %s arguments"
+msgstr[0] "应有 %s 个参数"
+
+#: /lib/python3.14/argparse.py:2519
+#, python-format
+msgid "unexpected option string: %s"
+msgstr "意外的选项字符串：%s"
+
+#: /lib/python3.14/argparse.py:2667
+#, python-format
+msgid "invalid %(type)s value: %(value)r"
+msgstr "无效的 %(type)s 值：%(value)r"
+
+#: /lib/python3.14/argparse.py:2685
+#, python-format
+msgid "invalid choice: %(value)r (choose from %(choices)s)"
+msgstr "无效的选择：%(value)r（请从 %(choices)s 中选择）"
+
+#: /lib/python3.14/argparse.py:2693
+#, python-format
+msgid ""
+"invalid choice: %(value)r, maybe you meant %(closest)r? (choose from "
+"%(choices)s)"
+msgstr ""
+"无效的选择：%(value)r，也许你想输入 %(closest)r？（请从 "
+"%(choices)s 中选择）"
+
+#: /lib/python3.14/argparse.py:2785
+#, python-format
+msgid "%(prog)s: error: %(message)s\n"
+msgstr "%(prog)s：错误：%(message)s\n"
+
+#: /lib/python3.14/argparse.py:2789
+#, python-format
+msgid "%(prog)s: warning: %(message)s\n"
+msgstr "%(prog)s：警告：%(message)s\n"

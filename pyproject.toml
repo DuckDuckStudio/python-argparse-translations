@@ -1,0 +1,19 @@
+[project]
+name = "python-argparse-translations-tests"
+version = "1.0.0"
+authors = [
+    { name = "鸭鸭「カモ」" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "catfood>=2.2.0",
+    "pytest>=9.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "isort>=8.0.1",
+    "pylint>=4.0.7",
+    "ruff>=0.16.3",
+    "ty>=0.0.73",
+]
