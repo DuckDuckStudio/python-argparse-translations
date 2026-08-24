@@ -2,15 +2,7 @@ name: 检查翻译文件
 
 on:
   push:
-    paths:
-      - "translations/**/*.po"
-      - "translations/**/*.mo"
-      - ".github/workflows/check-translations.yaml"
   pull_request:
-    paths:
-      - "translations/**/*.po"
-      - "translations/**/*.mo"
-      - ".github/workflows/check-translations.yaml"
 
 permissions: {}
 
