@@ -33,8 +33,9 @@ jobs:
           sudo apt-get install gettext
           
       - name: 安装 uv
-        shell: bash
-        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+        with:
+          enable-cache: false
 
       - name: 安装依赖
         shell: bash
