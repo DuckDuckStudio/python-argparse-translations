@@ -7,7 +7,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-from catfood.functions.print import 消息头 as MSHead
+from catfood.functions.print import MSHead
 
 
 def main():
@@ -47,7 +47,7 @@ def main():
     )
 
     # TODO: 自动处理需要的修改
-    print(f"{MSHead.成功} 已成功获取 argparse.pot，请依照贡献指北文档进行接下来的修改")
+    print(f"{MSHead.Success} 已成功获取 argparse.pot，请依照贡献指北文档进行接下来的修改")
     return 0
 
 
