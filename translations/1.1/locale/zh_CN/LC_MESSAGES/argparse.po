@@ -145,7 +145,7 @@ msgstr "无效的 %(type)s 值：%(value)r"
 #: /lib/python3.14/argparse.py:2685
 #, python-format
 msgid "invalid choice: %(value)r (choose from %(choices)s)"
-msgstr "无效的选择：%(value)r（请从 %(choices)s 中选择）"
+msgstr "无效的选项：%(value)r（请从 %(choices)s 中选择）"
 
 #: /lib/python3.14/argparse.py:2693
 #, python-format
@@ -153,7 +153,7 @@ msgid ""
 "invalid choice: %(value)r, maybe you meant %(closest)r? (choose from "
 "%(choices)s)"
 msgstr ""
-"无效的选择：%(value)r，也许你想输入 %(closest)r？（请从 "
+"无效的选项：%(value)r，也许你想输入 %(closest)r？（请从 "
 "%(choices)s 中选择）"
 
 #: /lib/python3.14/argparse.py:2785
