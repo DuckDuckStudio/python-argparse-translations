@@ -116,21 +116,21 @@ msgstr "必须指定参数 %s 中的一个"
 
 #: /lib/python3.14/argparse.py:2403
 msgid "expected one argument"
-msgstr "应为一个参数"
+msgstr "需要提供一个参数"
 
 #: /lib/python3.14/argparse.py:2404
 msgid "expected at most one argument"
-msgstr "应至多有一个参数"
+msgstr "最多提供一个参数"
 
 #: /lib/python3.14/argparse.py:2405
 msgid "expected at least one argument"
-msgstr "应至少有一个参数"
+msgstr "至少提供一个参数"
 
 #: /lib/python3.14/argparse.py:2409
 #, python-format
 msgid "expected %s argument"
 msgid_plural "expected %s arguments"
-msgstr[0] "应有 %s 个参数"
+msgstr[0] "需要提供 %s 个参数"
 
 #: /lib/python3.14/argparse.py:2519
 #, python-format
