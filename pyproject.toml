@@ -12,7 +12,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
-    "isort~=9.0.1",
+    "isort~=9.0.2",
     "pylint~=4.0.9",
     "ruff~=0.16.9",
     "ty~=0.0.84",
