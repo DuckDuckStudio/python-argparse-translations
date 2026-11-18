@@ -1,3 +1,5 @@
+# pyright: reportAttributeAccessIssue=false
+
 """
 检查加载翻译后的 argparse 输出。
 """
@@ -28,8 +30,8 @@ def test_argparse_output_is_translated(
         assert lang.is_dir()
 
         translation = gettext.translation("argparse", localedir, [lang.name])
-        argparse._ = translation.gettext # pyright: ignore[reportAttributeAccessIssue]
-        argparse.ngettext = translation.ngettext # pyright: ignore[reportAttributeAccessIssue]
+        argparse._ = translation.gettext
+        argparse.ngettext = translation.ngettext
 
         parser = argparse.ArgumentParser(prog="demo")
         parser.add_argument("--version", action="version", version="demo 1.0")

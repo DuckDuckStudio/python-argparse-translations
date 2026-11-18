@@ -1,3 +1,7 @@
+# pyright: reportUnknownVariableType=false
+# pyright: reportUnknownMemberType=false
+# pyright: reportAttributeAccessIssue=warning
+
 """
 通过环境中的 argparse 库来生成该版本的 argparse.pot 翻译模板。
 """
@@ -18,7 +22,7 @@ def main():
     if not shutil.which("xgettext"):
         raise FileNotFoundError("未找到 xgettext")
 
-    ver: str = argparse.__version__  # pyright: ignore[reportUnknownMemberType, reportAttributeAccessIssue, reportUnknownVariableType] pylint: disable=line-too-long / C0301
+    ver: str = argparse.__version__
     if not isinstance(ver, str):
         raise TypeError("argparse.__version__ 不是 str 类型")
 

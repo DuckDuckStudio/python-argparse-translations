@@ -14,6 +14,24 @@ dependencies = [
 dev = [
     "isort~=9.0.2",
     "pylint~=4.1.4",
+    "mypy~=2.4.1",
+    "pyright~=1.1.414",
     "ruff~=0.17.5",
     "ty~=0.0.104",
 ]
+
+[[tool.ty.overrides]]
+include = [
+    "tools/get_pot.py",
+    "tests/test_translation.py"
+]
+
+[tool.ty.overrides.rules]
+missing-attribute = "ignore"
+
+[[tool.mypy.overrides]]
+module = [
+    "get_pot",
+    "test_translation"
+]
+disable_error_code = ["attr-defined"]
