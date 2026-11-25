@@ -81,16 +81,16 @@ wheels = [
 
 [[package]]
 name = "catfood"
-version = "2.3.0"
+version = "2.3.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama" },
     { name = "requests" },
     { name = "typing-extensions", marker = "python_full_version < '3.13'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ce/6f/fda44b501e3bfa8c1c7507219ecb90d4e26464d2bc85182e7905a2607e66/catfood-2.3.0.tar.gz", hash = "sha256:be476ad538a5b14fdaaa9907616dc0bb004c1bfd5abd0e4a53c7b3645ae0f659", size = 13823, upload-time = "2026-09-11T08:03:10.922Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/12/fe/adc0c6977d049333e5eee3da1502b0af5913638e03512abfeb3983143b9d/catfood-2.3.1.tar.gz", hash = "sha256:63f3b3aaca6c88a545967e7d96884b77959795c769599a8a13a3dea6da02a4df", size = 13827, upload-time = "2026-11-21T13:09:02.021Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e9/98/f422959376b4692c53432f09b9d2c12764cd81e9d8c6c246746271cc6d58/catfood-2.3.0-py3-none-any.whl", hash = "sha256:a23f603a5ecd1e7597678115baca609a9992c7cc6ca4a3d04707aed12af6ec64", size = 15159, upload-time = "2026-09-11T08:03:09.766Z" },
+    { url = "https://files.pythonhosted.org/packages/ec/93/35771663b1ca9efda5cb08073ee2548cfb6ecd287fc0b5002222161de255/catfood-2.3.1-py3-none-any.whl", hash = "sha256:b757e14a5f697336e44b97131863b1a35a8811468a03e20be26d884dcca423e5", size = 15166, upload-time = "2026-11-21T13:09:00.772Z" },
 ]
 
 [[package]]
@@ -603,16 +603,16 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "catfood", specifier = "~=2.3.0" },
+    { name = "catfood", specifier = "~=2.3.1" },
     { name = "pytest", specifier = "~=9.2.0" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "isort", specifier = "~=9.0.2" },
-    { name = "mypy", specifier = ">=2.4.1" },
+    { name = "mypy", specifier = "~=2.4.1" },
     { name = "pylint", specifier = "~=4.1.4" },
-    { name = "pyright", specifier = ">=1.1.414" },
+    { name = "pyright", specifier = "~=1.1.414" },
     { name = "ruff", specifier = "~=0.17.5" },
     { name = "ty", specifier = "~=0.0.104" },
 ]
